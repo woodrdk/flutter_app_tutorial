@@ -9,9 +9,11 @@ void main(){
           title: Text('Rob\'s App!'),
           backgroundColor: Colors.red[600],
         ),
-        body: Image(
-
-          image: NetworkImage('http://www.rdkwood.com/images/profPic.jpg'),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/srt.jpg'),
+            // NetworkImage('http://www.rdkwood.com/images/profPic.jpg'),
+          ),
         ),
       ),
     ),
